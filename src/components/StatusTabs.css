@@ -1,0 +1,37 @@
+.status-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 24px;
+  font-size: 13px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.status-tabs__group {
+  display: inline-flex;
+  align-items: center;
+}
+
+.status-tabs__sep {
+  color: var(--border-strong);
+  margin: 0 8px;
+}
+
+.status-tabs__item {
+  background: none;
+  border: none;
+  padding: 2px 0;
+  color: var(--text-soft);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.status-tabs__item:hover {
+  color: var(--steel-500);
+}
+
+.status-tabs__item.is-active {
+  color: var(--accent);
+  font-weight: 700;
+}
